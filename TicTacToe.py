@@ -1,4 +1,4 @@
-field = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+field = ["-", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 game_on = True
 player = "X"
 
@@ -57,7 +57,7 @@ while game_on is True:
 
     if check_draw() is True:
         print("It's a draw!")
-        game_on = check_draw()
+        game_on = False
 
     if player == "X":
         player = "O"
